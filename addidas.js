@@ -19,7 +19,7 @@ function loadAddidas(Addidas){
         let url = Addidas.addidas[i].url;
 
         let addidasshoe = document.createElement("div");
-        addidasshoe.innerHTML = `<img src = ${url} style ="width: 50 px; height :400px; object-fit:cover;fill:20px"  class = "card-img-top" alt="Nike Shoe"></img>`;
+        addidasshoe.innerHTML = `<img src = "${url}" style ="width: 50 px; height :400px; object-fit:cover;fill:20px"  class = "card-img-top" alt="Nike Shoe"></img>`;
         
         let addidastxt = document.createElement("p");
         addidastxt.innerHTML = `<p class = "card-text"> <strong> ${title}</strong></p>`;
